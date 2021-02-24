@@ -10,4 +10,4 @@ elif age == 16:
   print("you can buy a lottery ticket")
   
 else:
-  print("you can g1o trick or treating")
+  print("you can go trick or treating")

@@ -1,0 +1,2 @@
+word=str(input("please enter any word >>>")).upper()
+print(word)

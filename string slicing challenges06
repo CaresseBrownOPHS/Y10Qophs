@@ -1,0 +1,12 @@
+firstname=str(input("please enter your first name >>>"))
+length=len(firstname)
+
+if length <=5 :
+  lastname=str(input("please enter your last name >>> ")).lower()
+  firstnamelastname = firstname + lastname
+  print(firstnamelastname)
+
+
+elif length >5 :
+  firstname= (firstname).upper()
+  print(firstname)

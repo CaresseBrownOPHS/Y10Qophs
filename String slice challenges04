@@ -1,0 +1,6 @@
+rhyme=str(input("please enter the first line of a nursery rythme >>>"))
+length= (len(rhyme))
+print("this has" ,length,"of letters in it")
+number1=int(input("please enter a starting number >>> "))
+number2=int(input("please enter an ending number >>> "))
+print(rhyme[number1:number2])

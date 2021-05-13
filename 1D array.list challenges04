@@ -12,8 +12,8 @@ show5=str(input("Enter a tv show >>> "))
 
 tvshows = [show1, show2, show3, show4, show5]
 
-placement=int(input("where would you like your show to be placed in the list? 1,2,3,4 or 5? >>>"))
+location=int(input("where would you like your show to be placed in the list? 1,2,3,4 or 5? >>>"))
 
-for place in tvshows(1):
-    print(tvshows)
-    
+tvshows.insert(location,show5)
+
+print(tvshows)

@@ -1,0 +1,27 @@
+#1d array/list challenges05
+
+
+food1=str(input("please enter a type of food >>> "))
+food2=str(input("please enter another type of food >>> "))
+food3=str(input("please enter anpther type of food >>> "))
+food4=str(input("please enter another type of food >>> "))
+food = [food1, food2, food3, food4]
+print(food)
+
+choice=int(input("which food choice would you like to delete 1,2,3 or 4? >>> "))
+
+if choice == 1:
+    food = [food2, food3, food4]
+    print(food)
+
+elif choice == 2:
+    food = [food1, food3, food4]
+    print(food)
+
+elif choice == 3:
+    food = [food1, food2, food4]
+    print(food)
+
+else:
+    food = [food1, food2, food3]
+    print(food)

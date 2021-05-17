@@ -1,15 +1,16 @@
-cars = []
+cars_list = []
 
 loop = True
 
 while loop == True:
-    cars.append(input("please enter a car brand >>> "))
-    choice=(input("would you like to enter another car brand yes or press x to exit"))
+    cars_list.append(input("please enter a car brand >>> "))
+    choice=(input("would you like to enter another car brand yes or press x to exit >>> "))
     if choice == "x" :
         loop = False
         print("exiting...")
-        print("the list is", cars)
-
+        print("the list is", cars_list)
+        
+    
     else:
-        cars = []
+        cars_list = []
         loop = True

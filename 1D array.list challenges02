@@ -1,0 +1,14 @@
+cars = []
+
+loop = True
+
+while loop == True:
+    choice=(input("please enter a car brand or press x to exit >>> "))
+    if choice == "x" :
+        loop = False
+        print("exiting...")
+        print("the list is", cars)
+
+    else:
+        cars = [choice]
+        loop = True

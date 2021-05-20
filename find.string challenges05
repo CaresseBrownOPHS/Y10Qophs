@@ -1,0 +1,13 @@
+#find()string challenges05
+
+num = str(input("please enter your phone number >>> "))
+
+target = "0"
+location= num.find(target)
+
+if location == 0:
+    print("valid UK mobile number")
+
+else:
+    print("Not a UK mobile number")
+

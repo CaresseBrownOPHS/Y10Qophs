@@ -1,0 +1,6 @@
+#find()string challenges02
+
+url = "google.com"
+target = "."
+location = url.find(target)
+print("the full stop is located as the index", location)

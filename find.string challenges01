@@ -1,0 +1,7 @@
+#find().string challenges01
+
+name = "caresse"
+thing = "esse"
+location = name.find(thing)
+
+print(thing)

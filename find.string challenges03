@@ -1,0 +1,7 @@
+#find()string challenges03
+
+email = "TheQueen@BuckinghamPalace.uk"
+target = "@"
+location = email.find(target)
+
+print("the sign you are looking for is located in the index", location)

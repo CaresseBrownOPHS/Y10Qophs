@@ -1,0 +1,9 @@
+#find()string challenges04
+
+numbers = "123456789"
+target = "4"
+target1 = "9"
+location = numbers.find(target)
+location1 = numbers.find(target1)
+print(location)
+print(location1)

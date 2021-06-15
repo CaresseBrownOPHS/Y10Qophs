@@ -1,0 +1,20 @@
+#NEA TASK1
+
+print("League Registration")
+
+firstname=str(input("please enter your firstname >>> "))
+nickname=str(input("please enter your nickname >>> "))
+email=str(input("please enter your email address >>> "))
+skillvl=str(input("enter a skill level E for expert, C for casual >>> ")).upper
+
+print("please review your details")
+
+print("firstname is", firstname)
+print("nickname is", nickname)
+print("email is", email)
+
+if skillvl == "c":
+    print("skill level is casual")
+
+else:
+    print("skill level is expert")

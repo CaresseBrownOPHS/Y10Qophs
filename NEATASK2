@@ -17,3 +17,11 @@ elif cyt == "us":
 
 elif cyt == "au":
     print("The AU fee is: 60 AUD")
+
+choice=str(input("Calculate another fee? - Y/N ")).lower
+
+if choice == "y":
+  loop = True
+
+else:
+  print("Bye!")

@@ -1,0 +1,17 @@
+print("Welcome!")
+loop = True
+
+if loop == True:
+    email=str(input("please enter your email >>> "))
+    skilllvl=str(input("Enter skill level - E for expert or C for casual: >>> "))
+    
+    cyt=str(input("Enter country: UK/US/AU: >>> "))
+
+if cyt == "uk":
+    print("The UK fee is: 45. GBP")
+
+elif cyt == "us":
+    print("The US fee is: 45.0 USD")
+
+elif cyt == "au":
+    print("The AU fee is: 60 AUD")

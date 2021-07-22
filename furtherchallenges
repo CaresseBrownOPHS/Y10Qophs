@@ -1,0 +1,18 @@
+
+loop = False
+print("Employee Details:")
+
+while loop == False:
+  EID=str(input("Please enter your Employee ID >>> "))
+  name=str(input("Please enter your full name >>> "))
+  phonenum=str(input("Please enter your telephone number >>> "))
+  qua =str(input("Please enter your employee qualification level AP or FQ >>> ")).lower
+  print("your employee ID is", EID)
+  print("you are", name)
+  print("your phone number is", phonenum)
+  
+if qua == 'ap':
+  print("You are an Apprentice")
+
+elif qua == 'fq':
+  print("You are fully qualified")
